@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:content-box;
+}
+/* body{
+    text-align: center;
+} */
+.baslik{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.alt_baslik{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.name_kimlik #name{
+    margin-top: 10px;
+
+}
+.lname_kimlik #lname{
+    margin-top: 10px;
+
+}.email #mail{
+    margin-top: 10px;
+}
+.dropListe{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.radio_list li{
+    padding-top:10px;
+}
+.fav_select{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#fav_liste{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.label_check{
+    margin-bottom: 5px;
+}
+.checkbox_liste li{
+    padding-top: 10px;
+}
+.label_comment{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+textarea{
+    overflow-y: scroll;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    
+}
+a:active{
+    background-color: aqua;
+}

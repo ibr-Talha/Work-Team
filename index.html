@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Suvey Form</title>
+</head>
+
+<body>
+    <h1 class="baslik">Clarusway Survey Form</h1>
+    <p class="alt_baslik">
+        Thank you for taking the time to help us improve the platform
+    </p>
+    <form action="#" method="get">
+        <div class="name_kimlik">
+            <label for="name">Name</label> <br>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="lname_kimlik">
+            <label for="lname">Surname</label> <br>
+            <input type="text" id="lname" placeholder="Enter your surname">
+        </div>
+        <div class="email">
+            <label for="mail">E-mail</label> <br>
+            <input type="email" name="e_mail" id="mail" placeholder="user@clarusway.com">
+        </div>
+        <div class="select_list">
+            <div>
+                <label for="liste">Which option best describes your current role?</label>
+            </div>
+            <div class="dropListe">
+                <select name="role" id="liste">
+                    <option selected disabled> Select an option</option>
+                    <option value="calişkan">Çalışkan</option>
+                    <option value="hirsli">Hırslı</option>
+                    <option value="zeki">Zeki</option>
+                </select>
+            </div>
+        </div>
+        <div class="liste">
+            <div>
+                <label for="radio_button">Would you recommende Clarusway to friend?</label>
+            </div>
+            <div class="radio_list">
+                <ul>
+                    <li><input type="radio" name="radio_button" id="yes">Yes</li>
+                    <li><input type="radio" name="radio_button" id="" maybe>Maybe</li>
+                    <li><input type="radio" name="radio_button" id="not_sure">Not sure</li>
+                    <li><input type="radio" name="radio_button" id="no">No</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="select_favorite">
+            <div class="fav_select">
+                <label for="favorite_label">What is your favorite feature of Clarusway</label>
+            </div>
+            <div>
+                <select name="favorite" id="fav_liste">
+                    <option selected disabled> Select an option</option>
+                    <option value="slack">Slack</option>
+                    <option value="teacher">Hocaları</option>
+                    <option value="mentör">Mentöleri</option>
+                </select>
+            </div>
+        </div>
+        <div class="check_imporved">
+            <div class="label_check">
+                <label for="imporved">What would you like to see imporved? (Check all that apply)</label>
+            </div>
+            <div class="checkbox_liste">
+                <ul>
+                    <li><input type="checkbox" name="frontEnd">Front-end Projects</li>
+                    <li><input type="checkbox" name="backEnd">Back-end Projects</li>
+                    <li><input type="checkbox" name="dataScie">Data Science</li>
+                    <li><input type="checkbox" name="courses">Additional Courses</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="label_comment">
+                <label for="comment">Any comments or suggestions?</label>
+            </div>
+            <div>
+                <textarea cols="22" rows="3"
+                    placeholder="Enter your comment here... Thanxs for your"></textarea>
+                <!-- <a href="#"><input type="submit" value="Submit"></a> -->
+                <a href="#">Submit</a>
+            </div>
+        </div>
+
+    </form>
+</body>
+
+</html>
